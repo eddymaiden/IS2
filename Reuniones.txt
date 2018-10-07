@@ -1,0 +1,7 @@
+Primera reunion 19 Septiembre: Principalmente lo que se ha decidido en la reunion es los roles de cada uno.
+
+Segunda reunion 27 Septiembre: Hemos estudiado a fondo el enunciado de la práctica y hemos decidido cuales de los requerimientos vamos a aplicar en nuestra practica
+
+Tercera reunion 3 Octubre: Hemos empezado a hacer los requerimientos. Hemos hecho algunas de ellas pero aun queda trabajo por hacer en las funciones
+
+Cuarta reunion 7 Octubre: Seguimos con las funciones y las hemos acabado las mismas. Tambien se ha realizado el calculo de los puntos de funcion.

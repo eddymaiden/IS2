@@ -1,0 +1,312 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>EatNow</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+    crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:400,700|PT+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <header id="main-header">
+    <div class="barra clearfix">
+      <div class="grid-1">
+        <div id="search-wrapper">
+          <input type="search" id="search" placeholder="Buscar" />
+          <i class="fa fa-search"></i>
+        </div>
+        en
+        <div id="search-wrapper">
+          <input type="search" id="search" placeholder="España,Madrid" />
+          <i class="fa fa-map-marker"></i>
+        </div>
+      </div>
+      <div class="grid-3">
+        <div class="elemento">
+
+        </div>
+        <div class="elemento">
+          <div class="button">
+            <i class="fas fa-comment"></i>
+            Mensajes
+          </div>
+        </div>
+        <div class="elemento">
+          <div class="button">
+            <a href="#sing_up">Registrate</a>
+          </div>
+        </div>
+        <div class="elemento">
+          <div class="button">
+            <a href="#login">Inicia sesión</a>
+          </div>
+        </div>
+        <div class="elemento">
+
+          <a href="#plato_nuevo"><div class="button">
+            <i class="fas fa-plus"></i>
+            Subir plato
+          </div>
+          </a>
+
+        </div>
+  </header>
+  <header id="sub-header">
+    <div class="barra-lateral">
+      <a href="#perfil">
+        <div class="parte-lateral">
+          <div class="subparte"><i class="fas fa-user"></i></div>
+          <p>Perfil</p>
+        </div>
+      </a>
+      <a href="#mis_platos">
+      <div class="parte-lateral">
+        <div class="subparte"><i class="fas fa-list-ul"></i></div>
+        <p>Mis Platos</p>
+      </div>
+      </a>
+      <div class="parte-lateral">
+        <div class="subparte"><i class="fas fa-utensils"></i></div>
+        <p>Platos</p>
+      </div>
+      <div class="parte-lateral">
+        <div class="subparte"><i class="fas fa-comment"></i></div>
+        <p>Mensajes</p>
+      </div>
+    </div>
+  </header>
+  <!--main-header-->
+  <div id="contenido">
+    <section class="inicio">
+      <div class="contenido_inicio">
+        <h1 class="titulo">Eat<span>Now</span></h1>
+      </div>
+    </section>
+    <span class="anchor" id="sing_up"></span>
+    <section class="sing_up">
+      <div class="contenido_sing_up">
+        <div class="contenedor_titulo">
+          <h2 class="titulo">Registrate en Eat<span>Now</span></h2>
+          <p class="desc">Escribe tus datos</p>
+        </div>
+        <div class="contenedor_formulario">
+          <form class="formulario">
+            <div class="label clearfix">
+              <label for="nombre"></label>
+              <input type="text" id="nombre" name="nombre" placeholder="Tu Nombre" required>
+            </div>
+            <div class="label clearfix">
+              <label for="apellidos"></label>
+              <input type="text" id="apellidos" name="apellidos" placeholder="Tus apellidos" required>
+            </div>
+            <div class="label clearfix">
+              <label for="Email"></label>
+              <input type="Email" name="Email" id="Email" placeholder="Email">
+            </div>
+            <div class="label clearfix">
+              <label for="password"></label>
+              <input type="password" name="password" id="password" placeholder="Contraseña">
+            </div>
+            <div class="label enviar">
+              <input type="submit" value="Enviar">
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <span class="anchor" id="login"></span>
+    <section class="login">
+      <div class="contenido_login">
+        <div class="contenedor_titulo">
+          <h2 class="titulo">Inicia Sesión en Eat<span>Now</span></h2>
+          <p class="desc">Escribe tus datos</p>
+        </div>
+        <div class="contenedor_formulario">
+          <form class="formulario">
+            <div class="label clearfix">
+              <label for="Email"></label>
+              <input type="Email" name="Email" id="Email" placeholder="Email">
+            </div>
+            <div class="label clearfix">
+              <label for="password"></label>
+              <input type="password" name="password" id="password" placeholder="Contraseña">
+            </div>
+            <div class="label enviar clearfix">
+              <input type="submit" value="Iniciar">
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <span class="anchor" id="perfil"></span>
+    <section class="perfil">
+      <div class="contenido_perfil">
+        <div class="contenedor_titulo">
+          <h2 class="titulo"> Tu perfil</h2>
+          <p class="desc">Aquí podrás ver y editar los datos de tu perfil</p>
+        </div>
+        <div class="imagen_perfil clearfix">
+          <div class="contenedor_imagen_perfil">
+            <img src="img/defaul-avatar_0.jpg" alt="imagen_perfil">
+          </div>
+          <div class="contenedor_informacion_imagen_perfil">
+            <p>Cambia tu imagen de perfil</p>
+            <p>Esta es la imagen con la que la comunidad identificará tu perfil. Sólo aceptamos formatos .jpg</p>
+            <div class="button">
+              Sube una foto de ti
+            </div>
+          </div>
+        </div>
+        <div class="contenedor_formulario">
+          <form class="formulario">
+            <div class="label clearfix">
+              <label for="nombre">Nombre:</label>
+              <input type="text" name="nombre" id="nombre">
+            </div>
+            <div class="label clearfix">
+              <label for="apellidos">Apellidos:</label>
+              <input type="text" name="Nombre" id="Nombre">
+            </div>
+            <div class="label clearfix">
+              <label for="Email">Email:</label>
+              <input type="Email" name="Email" id="Email">
+            </div>
+            <div class="label clearfix">
+              <label for="password">Contraseña:</label>
+              <input type="password" name="password" id="password">
+            </div>
+            <div class="label clearfix">
+              <label for="nacimiento">Fecha de nacimiento:</label>
+              <input type="date" name="nacimiento" id="nacimiento">
+            </div>
+            <div class="label clearfix">
+              <label for="ubicación">Ubicación de tus platos:</label>
+              <input type="text" name="ubicación" id="ubicación">
+            </div>
+            <div class="label sexo clearfix">
+              <label for="sexo">Sexo:</label>
+              <input type="radio" name="sexo" id="sexo" checked value="Hombre">Hombre
+              <input type="radio" name="sexo" id="sexo" value="Mujer">Mujer
+              <input type="radio" name="sexo" id="sexo" value="Otro">Otro
+            </div>
+            <input type="submit" value="Guardar">
+          </form>
+        </div>
+      </div>
+    </section>
+    <span class="anchor" id="mis_platos"></span>
+    <section class="mis_platos">
+      <div class="contenido_mis_platos">
+        <h2 class="titulo">Tus platos </h2>
+        <h2><a href="#publicados">publicados</a> / <a href="#vendidos">vendidos</a></h2>
+        <p class="desc">Aquí podrás subir platos y gestionar los que ya tienes</p>
+        <span class="anchor" id="plato_nuevo"></span>
+        <div class="plato_nuevo clearfix">
+          <div class="button">
+            <i class="fas fa-plus"></i>
+          </div>
+          <p>Subir un plato más a mi catálogo</p>
+        </div>
+
+
+        <!--PUBLICADOS-->
+        <span class="anchor" id="publicados"></span>
+        <h3 class="titulo">Publicados</h3>
+        <div class="plato publicado  clearfix">
+          <div class="imagen_plato">
+            <img src="img/lasaña_carne_ternera_cerdo-525x360.jpg" alt="imagen_plato">
+          </div>
+          <p>Lasaña</p>
+          <p>$15</p>
+        </div>
+        <div class="plato publicado  clearfix">
+          <div class="imagen_plato">
+            <img src="img/boquerones-vinagre-receta-1440x810.jpg" alt="imagen_plato">
+          </div>
+          <p>Boquerones</p>
+          <p>$7</p>
+        </div>
+        <div class="plato publicado  clearfix">
+          <div class="imagen_plato">
+            <img src="img/bocadillo.jpg" alt="imagen_plato">
+          </div>
+          <p>Bocadillo</p>
+          <p>$10</p>
+        </div>
+        <div class="plato publicado  clearfix">
+          <div class="imagen_plato">
+            <img src="img/croquetas-de-jamon-con-bechamel-rapida.jpg" alt="imagen_plato">
+          </div>
+          <p>Croquetas</p>
+          <p>$14</p>
+        </div>
+
+
+        <!-- VENDIDOS-->
+        <span class="anchor" id="vendidos"></span>
+        <h3 class="titulo">Vendidos</h3>
+        <div class="plato publicado  clearfix">
+          <div class="imagen_plato">
+            <img src="img/hamburguesa-de-ternera-gallega.jpg" alt="imagen_plato">
+          </div>
+          <p>Hamburguesa</p>
+          <p>$10</p>
+        </div>
+        <div class="plato publicado  clearfix">
+            <div class="imagen_plato">
+              <img src="img/nuggets-de-pollo-caseros.jpg" alt="imagen_plato">
+            </div>
+            <p>Nugggets</p>
+            <p>$11'5</p>
+          </div>
+      </div>
+    </section>
+  </div>
+
+
+
+
+
+
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
+
+  </script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview')
+
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>
